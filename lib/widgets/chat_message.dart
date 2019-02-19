@@ -46,7 +46,8 @@ class ChatMessage extends StatelessWidget {
               appendToLink: true,
               backgroundColor: primaryColor,
               borderColor: primaryColor,
-              textColor: Colors.white),
+              textColor: Colors.white,
+              launchFromLink: true),
           padding: EdgeInsets.fromLTRB(5.0, 10.0, 5.0, 10.0),
           width: 200.0,
           decoration: BoxDecoration(
